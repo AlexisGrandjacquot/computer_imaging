@@ -94,3 +94,15 @@ And I also took a video on the face of myself with amplification factor 20, whic
 ![myself](materials/myself_comp.gif)
 
 > Any question, all welcome:)
+>
+> # Work from our group
+>
+> Once a video has been magnified using this code, it is possible to use the python script get_frequency.py to extract the frequency from iterresting points in the video. To use this script you may change the variable video_path at line 5. Then you can run the script with python:
+>
+> First click on the points that iterrest you. And click on q.
+> ![image](https://github.com/AlexisGrandjacquot/computer_imaging/assets/114082458/69b93fbb-5743-4058-97be-633dd1815f4b)
+> A graph will appear with the frequency that you wanted.
+>![image](https://github.com/AlexisGrandjacquot/computer_imaging/assets/114082458/a7b8a7a9-6517-4894-9432-436ea602fb04)
+
+> 
+
