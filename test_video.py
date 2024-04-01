@@ -17,6 +17,7 @@ weights_file = sorted(
     [p for p in os.listdir(config.save_dir) if '_loss' in p and '_epoch{}'.format(ep) in p and 'D' not in p],
     key=lambda x: float(x.rstrip('.pth').split('_loss')[-1])
 )[0]
+print(weights_file)
 weights_path = os.path.join(config.save_dir, weights_file)
 ep = int(weights_path.split('epoch')[-1].split('_')[0])
 state_dict = gen_state_dict(weights_path)
